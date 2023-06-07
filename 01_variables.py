@@ -43,6 +43,15 @@ print(age)
 # Cambiamos su tipo
 name = 45
 age = 'Marcos'
-print(name)
-print(age)
+print('contenido var name', name)
+print('contenido var age', age)
+
+# ¿Forzamos el tipo?
+address: str = "Mi dirección"
+address = True
+address = 5
+address = 1.2
+print(type(address)) 
+# Estamos especificando el tipado para saber que queremos que sea un string
+# En los inputs puede tener más sentido el indicarlo, aquí no tiene mucho sentido
 
