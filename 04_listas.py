@@ -77,6 +77,7 @@ my_new_list = my_list.copy() # devuelve una copia de los valores de la lista
 # borrar el elemento que está en un índice, sin que me lo devuelva
 del my_list[2] # en este momento my_list en el índice 2 tiene el número 52
 print(my_list)
+# *** "del" es del sistema, borra la variable / elemento
 
 # borrar la lista entera
 my_list.clear()
