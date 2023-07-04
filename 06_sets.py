@@ -20,7 +20,8 @@ print(my_other_set) #*** Un set no lo ha añadido de forma ordenada, puede hacer
 #Un set no es una estructura ordenada
 
 my_other_set.add("mouredev")
-print(my_other_set) #*** Un set no admite repetidos
+print(my_other_set) 
+#*** Un set no admite repetidos ***
 
 #Comprobar que un elemento existe dentro de un set
 print("Moure" in my_other_set)
