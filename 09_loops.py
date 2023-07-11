@@ -63,7 +63,7 @@ for element in my_dict:
     print(element)
     if element == "Edad":
         continue # otra palabra reservada que se puede utilizar
-    print("Se ejecuta")
+    print("Se ejecuta") # No se pintaría "Se ejecuta" después de "Edad", continua volviendo al for
 else:
     print("El bucle for para mi diccionario ha finalizado") # No se imprime porque ha salido con break
 
